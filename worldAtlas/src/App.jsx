@@ -1,22 +1,50 @@
-
+import react from 'react'
+import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import './App.css'
+import { About } from './pages/About'
+import { Contact } from './pages/Contact'
+import { Country } from './pages/Country'
 import { Home } from './pages/Home'
+import { AppLayout } from './components/Layouts/AppLayouts'
 
 
-const router = createBrowserrouter([
+const router = createBrowserRouter([
   {
     path:"/",
-    element:<Home/>
+    element:<AppLayout/>,
+    children:[
+      {
+    path:"about",
+    element:<About/>
   },{
-    path:"",
-    element:
+    path:"country",
+    element:<Country/>
   },{
-    path:"",
-    element:
+    path:"about",
+    element:<About/>
   },{
-    path:"",
-    element:
-  }
+    path:"contact",
+    element:<Contact/>
+  },
+    ]
+  },
+  // {
+  //   path:"about",
+  //   element:<About/>
+  // },{
+  //   path:"country",
+  //   element:<Country/>
+  // },{
+  //   path:"about",
+  //   element:<About/>
+  // },{
+  //   path:"contact",
+  //   element:<Contact/>
+  // },
+  // },{
+  //   path:"*",
+  //   element:<Error/>
+  // }
 ])
 
 function App() {
@@ -24,7 +52,7 @@ function App() {
 
   return (
     <>
-     
+       <RouterProvider router = {router}/>
     </>
   )
 }
