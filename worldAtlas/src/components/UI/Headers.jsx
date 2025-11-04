@@ -7,11 +7,11 @@ export const Headers = () => {
 
     return (
         <>
-          <header className="bg-[#1F1F1F] shadow-md  h-16">
-            <div className="max-w-6xl mx-auto px-7 py-3 flex justify-between items-center bg-[#1F1F1F]">
+          <header className="bg-[#131212] shadow-md  h-20  sticky top-0 z-50 w-full opacity-96">
+            <div className="max-w-[68rem]  mx-auto px-7  py-5 flex justify-between items-center ">
         
                 {/* Logo */}
-                <h1 className="font-JetBrains Mono text-3xl  font-bold text-white-900">
+                <h1 className="urbanist text-4xl  font-bold text-white-900">
                   <NavLink to ="/">
                     World Atlas
                   </NavLink>
@@ -19,11 +19,11 @@ export const Headers = () => {
 
                 {/* Desktop Menu */}
                 <nav className="hidden md:block">
-                  <ul className="flex gap-8 text-sm font-semibold text-white-700">
-                    <li><a href="/" className="hover:text-blue-500 transition">Home</a></li>
-                    <li><a href="/about" className="hover:text-blue-500 transition">About</a></li>
-                    <li><a href="/country" className="hover:text-blue-500 transition">Country</a></li>
-                    <li><a href="/contact" className="hover:text-blue-500 transition">Contact</a></li>
+                  <ul className="flex gap-8 text-md font-light text-white-700">
+                    <li><a href="/" className="hover:text-gray-400 transition shadow:white">Home</a></li>
+                    <li><a href="/about" className="hover:text-gray-400 transition">About</a></li>
+                    <li><a href="/country" className="hover:text-gray-400 transition">Country</a></li>
+                    <li><a href="/contact" className="hover:text-gray-400 transition">Contact</a></li>
                   </ul>
                 </nav>
 
