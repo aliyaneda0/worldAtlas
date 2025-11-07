@@ -7,8 +7,8 @@ export const Headers = () => {
 
     return (
         <>
-          <header className="bg-[#131212] shadow-md  h-20  sticky top-0 z-50 w-full opacity-96">
-            <div className="max-w-[68rem]  mx-auto px-7  py-5 flex justify-between items-center ">
+          <header className="bg-[#131212] shadow-md  h-18  sticky top-0 z-50 w-full opacity-96">
+            <div className="max-w-[68rem]  mx-auto px-7  py-4 flex justify-between items-center ">
         
                 {/* Logo */}
                 <h1 className="urbanist text-4xl  font-bold text-white-900">

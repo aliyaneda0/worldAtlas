@@ -7,8 +7,8 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Herosection = () => {
   return (
-    <section className=" text-white py-20 relative overflow-hidden">
-      <div className="max-w-5xl mx-auto px-7 flex flex-col md:flex-row gap-[2.2rem]   sm:gap-[6.2rem] items-center justify-between">
+    <section className=" text-white py-20  relative overflow-hidden">
+      <div className="max-w-5xl mx-auto px-7 flex flex-col md:flex-row gap-[2.2rem]   sm:gap-[4.2rem] items-center justify-between">
         
         {/* Left Section */}
         <div className="md:w-1/2 z-10 ">
