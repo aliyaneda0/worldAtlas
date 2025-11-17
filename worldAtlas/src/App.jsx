@@ -22,15 +22,12 @@ const router = createBrowserRouter([
         path:"about",
         element:<About/>
       },{
-    path:"country",
-    element:<Country/>
-    },{
-    path:"about",
-    element:<About/>
-    },{
-    path:"contact",
-    element:<Contact/>
-    },
+        path:"country",
+        element:<Country/>
+      },{
+        path:"contact",      
+        element:<Contact/>
+      },
   ]
   },
   // {
