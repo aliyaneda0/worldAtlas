@@ -1,6 +1,6 @@
 import { useEffect, useState, useTransition } from "react"
 import { getCountryData } from "../api/postApi";
-import Loader from "../components/UI/Loader";
+// import Loader from "../components/UI/Loader";
 import { CountryCard } from "../components/Layouts/CountryCard";
 
 export const Country = () =>{
@@ -17,11 +17,11 @@ export const Country = () =>{
                  })
     },[])
 
-    if (isPending) return <h1><Loader/></h1>
+    // if (isPending) return <h1><Loader/></h1>
 
     return(
         <section className=" text-white py-16  relative overflow-hidden">
-             <ul className="max-w-5xl mx-auto w-full grid  gap-[1.5rem] sm:grid-cols-3 lg:grid-cols-4 px-4">
+             <ul className="max-w-5xl mx-auto w-full grid  gap-7 sm:grid-cols-3 lg:grid-cols-4 px-4">
                   {countries.map((curCountry, index) => {
                       return <CountryCard country={curCountry} key={index} />;
                   })}
