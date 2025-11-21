@@ -20,7 +20,7 @@ export const Headers = () => {
                 {/* Desktop Menu */}
                 <nav className="hidden md:block">
                   <ul className="flex gap-8 text-md font-light text-white-700">
-                    <li><a href="/" className="hover:text-gray-400 transition shadow:white">Home</a></li>
+                    <li><a href="/" className="hover:text-blue-400 transition shadow:white">Home</a></li>
                     <li><a href="/about" className="hover:text-gray-400 transition">About</a></li>
                     <li><a href="/country" className="hover:text-gray-400 transition">Country</a></li>
                     <li><a href="/contact" className="hover:text-gray-400 transition">Contact</a></li>
@@ -38,12 +38,12 @@ export const Headers = () => {
 
               {/* Mobile Menu */}
               {menuOpen && (
-                <nav className="md:hidden bg-[#eaf2f8] border-t border-gray-300 animate-slideDown">
+                <nav className="md:hidden bg-[#131212] border-t border-gray-500 animate-slideDown">
                   <ul className="flex flex-col items-center gap-4 py-4 text-sm font-semibold text-white-700">
-                    <li><a href="#" className="hover:text-blue-500">Home</a></li>
-                    <li><a href="#" className="hover:text-blue-500">About</a></li>
-                    <li><a href="#" className="hover:text-blue-500">Services</a></li>
-                    <li><a href="#" className="hover:text-blue-500">Contact</a></li>
+                    <li><a href="/" className="hover:text-blue-500">Home</a></li>
+                    <li><a href="/about" className="hover:text-blue-500">About</a></li>
+                    <li><a href="/country" className="hover:text-blue-500">Country</a></li>
+                    <li><a href="/contact" className="hover:text-blue-500">Contact</a></li>
                   </ul>
                 </nav>
               )}

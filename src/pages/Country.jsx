@@ -50,7 +50,7 @@ export const Country = () =>{
 
     return(
         <section className=" text-white py-16  relative overflow-hidden">
-             <ul className=" max-w-[480px] sm:max-w-5xl mx-auto w-full  grid  gap-7 sm:grid-cols-3 lg:grid-cols-4 px-4">
+             <ul className=" max-w-[400px] sm:max-w-5xl mx-auto w-full  grid  gap-7 sm:grid-cols-3 lg:grid-cols-4 px-4">
                   {countries.map((curCountry, index) => {
                       return <CountryCard country={curCountry} key={index} />;
                   })}
