@@ -11,10 +11,16 @@ export const Country = () =>{
     useEffect(()=>{
            
                  startTransition(async()=>{
+                  try{
                     const res =  await getCountryData();
                      console.log(res,res.data)
-                 setCountries(res.data);
-                 })
+                     setCountries(res.data);
+                  }
+                   catch (err) {
+                      console.error("Failed to load countries:", err);
+                      setCountries([])
+                    }
+                    })
     },[])
 
 //      useEffect(() => {

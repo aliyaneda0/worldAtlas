@@ -63,7 +63,7 @@ export const CountryDetails = () => {
         // </section>
 
         <div className="min-h-screen  text-white py-20 px-4 flex justify-center">
-            <div className="w-full max-w-5xl bg-gradient-to-br from-[#1b1b1b] to-[#111] 
+            <div className="w-full  max-w-2xl md:max-w-4xl bg-gradient-to-br from-[#1b1b1b] to-[#111] 
                   p-12 md:p-8 rounded-2xl shadow-2xl border border-zinc-500/40
                   flex flex-col md:flex-row gap-10
                    hover:border-gray-700 hover:scale-105 transform hover:shadow-gray-200/20 transition-all duration-500">
@@ -80,7 +80,7 @@ export const CountryDetails = () => {
                 </div>
 
     {/* RIGHT DETAILS */}
-            <div className="md:w-1/2 flex flex-col justify-center items-center sm:items-start gap-3">
+            <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start gap-3">
                 <h1 className="text-3xl font-bold mb-2" >{data.name.common}</h1>
 
                <p className="flex flex-wrap mx-1.">
