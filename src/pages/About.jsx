@@ -12,7 +12,7 @@ export const About = () => {
   return (
    <section className=" max-w-5xl mx-auto mb-[90px] bg-black text-white py-8 min-h-screen flex flex-col items-center">
       {/* Section Header */}
-      <div className="max-w-[66rem] w-full text-center px-6">
+      <div className="max-w-[64rem] mx-auto mt-1 w-full text-center px-6">
         <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-12 urbanist">
           Here are the{" "}
           <span className="text-white ">Interesting Facts</span> we’re proud of

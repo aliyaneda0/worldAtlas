@@ -12,7 +12,7 @@ export const CountryCard = ({country}) =>{
                          hover:border-gray-700 hover:scale-105 transform hover:shadow-gray-200/20 transition-all duration-500">
                 <div className=" flex flex-col gap-2   ">
 
-                     <div className=" mx-14  rounded-0  overflow-hidden  ">
+                     <div className=" mx-3 sm:mx-1 h-[180px]   rounded-0  overflow-hidden  ">
                         <img  className=" w-[100%] h-auto  my-3 md:my-3 md:mx-auto" src={flagSrc} alt="flag svg" />
                      </div>
 

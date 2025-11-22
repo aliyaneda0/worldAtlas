@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 export const Contact = () => {
   return (
-    <section className="bg-black text-white min-h-screen flex flex-col items-center py-16">
+    <section className="bg-black text-white min-h-screen flex flex-col items-center py-14">
       {/* Header */}
       <div className="text-center mb-12 px-6">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
@@ -48,27 +48,7 @@ export const Contact = () => {
       </div>
 
       {/* Footer Section */}
-      <div className="mt-16 w-full max-w-4xl px-6 grid gap-8 sm:grid-cols-3 text-center">
-        <div className="flex flex-col items-center">
-          <FaMapMarkerAlt className="text-blue-400 text-2xl mb-2" />
-          <h4 className="font-semibold text-lg">Find us</h4>
-          <p className="text-gray-400 text-sm">Pune, Maharashtra</p>
-        </div>
-
-        <div className="flex flex-col items-center">
-          <FaPhoneAlt className="text-blue-400 text-2xl mb-2" />
-          <h4 className="font-semibold text-lg">Call us</h4>
-          <p className="text-gray-400 text-sm">9876543211</p>
-        </div>
-
-        <div className="flex flex-col items-center">
-          <FaEnvelope className="text-blue-400 text-2xl mb-2" />
-          <h4 className="font-semibold text-lg">Mail us</h4>
-          <p className="text-gray-400 text-sm">contact@worldatlas.com</p>
-        </div>
-      </div>
-
-      
+     
     </section>
   );
 };
