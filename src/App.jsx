@@ -34,6 +34,7 @@ const router = createHashRouter([
         element:<Contact/>
       },
   ]
+    
   },
   // {
   //   path:"about",
@@ -52,7 +53,10 @@ const router = createHashRouter([
   //   path:"*",
   //   element:<Error/>
   // }
-])
+], {
+    basename: "/worldAtlas",
+   }
+)
 
 function App() {
  

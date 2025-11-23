@@ -28,7 +28,7 @@ const Herosection = () => {
         {/* Right Section */}
         <div className=" w-[420px]  sm:w-[500px] mt:0 md:mt-2 flex justify-center  relative p-2 shadow-lg  ">
           <img
-             src="/Images/HeroImg.png"
+            src="/worldAtlas/Images/HeroSecImg.png"
             alt="World Landmarks"
             className="w-[430px]  sm:w-[500px] h-auto object-contain drop-shadow-2xl  "
           />
