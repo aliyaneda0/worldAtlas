@@ -35,7 +35,7 @@ export const About = () => {
             // viewport={{ once: true }
             className="relative bg-gradient-to-bl from-zinc-950/20 via-zinc-700/60 to-zinc-950/10
                         backdrop-blur-xl rounded-3xl px-6 py-3 shadow-xl border border-transparent
-                         hover:border-gray-700 hover:scale-105 transform hover:shadow-gray-300/20 transition-all duration-300"
+                         hover:border-gray-700 hover:scale-105 transform hover:shadow-gray-300/20 transition-all duration-300 scroll-smooth md:scroll-auto "
           >
             <h3 className="text-2xl md:text-xl font-semibold mb-2 text-white">
               {country.countryName}
