@@ -7,12 +7,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>worldatlas</title>
-      <script>
-        // If the URL doesn't contain a hash (#), redirect to add "#/"
-        if (!location.hash) {
-          location.replace(location.pathname + "#/");
-        }
-      </script>
+        <script>
+            if (!location.hash) {
+              location.replace(location.pathname + location.search + "#/");
+            }
+        </script>
 
   </head>
   <body>
