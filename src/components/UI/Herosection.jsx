@@ -2,7 +2,7 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 // import HeroImg from "../../public/Images/HeroImg.jpg"; 
-// import HeroSecIm from "../../assets/HeroSecImg.png";
+// import HeroSecIm from "../../worldAtlas/assets/HeroSecImg.png";
 // adjust path as needed
 
 const Herosection = () => {

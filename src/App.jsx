@@ -1,5 +1,5 @@
 import react from 'react'
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
@@ -10,7 +10,8 @@ import { ErrorPage } from './pages/ErrorPage'
 import { CountryDetails } from './components/Layouts/CountryDetails'
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
+
   {
     path:"/",
     element:<AppLayout/>,
